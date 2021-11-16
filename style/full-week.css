@@ -1,26 +1,30 @@
-/* *{
-    box-sizing: border-box;
-} */
 
+*{
+  box-sizing: border-box;
+}
+header{
+  margin-bottom: 64px;
+}
 h1 {
   font-size: 48px;
   color: rgb(71, 62, 62);
   margin: 12px 0;
 }
 
-/* #description{
-    margin-bottom: 36px;
-} */
+#description{
+    margin: 8px;
+} 
 
-header p {
+/* header p { 
   margin-bottom: 36px;
-}
+} */
 a {
   background-color: rgb(167, 1, 78);
   color: white;
   border-radius: 4px;
   font-size: 24px;
   padding: 12px 48px;
+  display: inline-block;
 }
 
 a:hover {
@@ -49,4 +53,12 @@ h2{
 main p {
     margin: 12px;
     color: rgb(71,29,22);
+}
+.daily-goal{
+    margin : 12px;
+    color: rgb(71,29,22)
+}
+
+.highlight-goal{
+  background-color: rgb(226,115,101);
 }
