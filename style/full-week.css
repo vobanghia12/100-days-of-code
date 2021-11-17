@@ -8,11 +8,11 @@ header{
 h1 {
   font-size: 48px;
   color: rgb(71, 62, 62);
-  margin: 12px 0;
+  margin: 0;
 }
 
 #description{
-    margin: 8px;
+    margin: 12px;
 } 
 
 /* header p { 
@@ -23,7 +23,7 @@ a {
   color: white;
   border-radius: 4px;
   font-size: 24px;
-  padding: 12px 48px;
+  padding: 20px 36px;
   display: inline-block;
 }
 
@@ -44,6 +44,7 @@ li {
   border-radius: 6px;
   margin: 30px;
   padding: 16px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
 }
 
 h2{
