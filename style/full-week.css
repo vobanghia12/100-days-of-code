@@ -10,6 +10,9 @@ h1 {
   color: rgb(71, 62, 62);
   margin: 0;
 }
+p{
+  font-size: 24px;
+}
 
 #description{
     margin: 12px;
