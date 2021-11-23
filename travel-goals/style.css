@@ -88,20 +88,3 @@
     color: rgb(0,160, 117)
 }
 
-
-footer{
-    background-color: black;
-    padding: 30px 0;
-}
-footer ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-footer li{
-    padding: 0 20px;
-}
-footer img{
-    width: 50px;
-    
-}
