@@ -1,4 +1,4 @@
 My landing page: 
-![Screen Shot 2021-11-20 at 10 21 43 PM](https://user-images.githubusercontent.com/27200158/142749474-d6ba84d1-51a3-443c-8893-0cdff8e3002b.png)
-![Screen Shot 2021-11-20 at 10 21 54 PM](https://user-images.githubusercontent.com/27200158/142749480-c1e0d756-f4f9-4b79-9fd2-8ae53b3d37e3.png)
-https://travel-vlog.netlify.app/
+<img width="1438" alt="Screen Shot 2021-11-24 at 11 41 50 PM" src="https://user-images.githubusercontent.com/27200158/143380881-04717150-94bb-4e08-8cbb-c268e3c535a7.png">
+<img width="1440" alt="Screen Shot 2021-11-24 at 11 42 18 PM" src="https://user-images.githubusercontent.com/27200158/143380903-c123486b-a1b2-4823-a5bd-70e54f789a8a.png">
+https://travel-goal.netlify.app/
