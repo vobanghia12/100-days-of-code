@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<in>, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Demo Form</h1>
+    </header>
+    <main>
+    <form action="/user-data" method="GET">
+        <section>
+            <ul>
+                <h2>Your personal details</h2>
+                <li>
+                    <label for="username">Your name</label>
+                    <input type="text" name="user-name" id="username"  required placeholder="Nghia Vo"/>
+                </li>
+
+                <li>
+                    <label for="useremail">Your email address:</label>
+                    <input type="email" name="user-email" id="useremail" required />
+                </li>
+
+                <li>
+                    <label for="userpassword">Your password</label>
+                    <input type="password" name="user-password" id="userpassword" required minlength="7"/>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <ul>
+                <h2>More details</h2>
+                <li>
+                    <label for="userage">Your age</label>
+                    <input type="number" name="user-age" id="userage" required min="18" max ="100"/>
+                </li>
+                <li>
+                    <label for="userbirthday">Your birthdatte</label>
+                    <input type="date" name="user-birthday" id="userbirthday" min ="1921-01-01" max="2003-01-01" >
+                </li>
+                <li>
+                    <label for="fav-color">My favorite color</label>
+                    <select id="fav-color" name="favcolor">
+                        <option value="blue">My favorite color is blue</option>
+                        <option value="black">black</option>
+                        <option value="green">Green</option>
+                    </select>
+                </li>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <label for="message">Your message</label>
+            <textarea id="message" name="text-message" rows="8"></textarea>
+        </section>
+
+        <section>
+            <h2>How should we verify your account</h2>
+            <ul>
+                <li class="form-control-inline">
+                    <input type="radio" id="verify-text-message" name="verify" value="text-message" required/>
+                    <label id="verify-text-message">Via text message (SMS)</label>
+                </li>
+
+
+                <li class="form-control-inline">
+                    <input type="radio" name="verify" id="verify-phone" value="phone" required/>
+                    <label id="verify-phone">Via a phone</label>
+                </li>
+                <li class="form-control-inline">
+                    <input type="radio" name="verify" id="verify-email" required/>
+                    <label id="verify-email">Via an email</label>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>How should we contact you?</h2>
+            <ul>
+                <li class="form-control-inline">
+                    <input type="checkbox" name="contact" id="contact-email" value="email" />
+                    <label id="verify-email">Contact me via email</label>
+                </li>
+                <li class="form-control-inline">
+                    <input type="checkbox" name="contact" id="contact-phone" value="phone" />
+                    <label id="contact-phone">Contact me via phone</label>
+                </li>
+            </ul>
+        </section>
+       
+        <section>
+            <div class="form-control-inline">
+                <input type="checkbox" name="terms" id="agree-terms" />
+                <label id="agree-terms">Agree term ?</label>
+            </div>
+        </section>
+        <button type ="reset">Clear</button>
+        <button type="submit">Submit</button>
+    </form>
+    </main>
+</body>
+
+</html>
