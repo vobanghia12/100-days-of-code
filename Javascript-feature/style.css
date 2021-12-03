@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(31, 31, 31);
+    color:rgb(39, 39, 39);
+}
+*{
+    box-sizing: border-box;
+}
+form{
+    width: 40rem;
+    margin: 4rem auto;
+    background-color: rgb(253, 238, 168);
+    padding: 1.5rem;
+}
+label{
+    display: block;
+}
+input{
+    width: 50%;
+    margin-right: 0.5rem;
+    border: 1px solid rgb(33, 243, 233);
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    padding: 0.2rem;
+}
+.warning{
+    background-color: rgb(240, 161, 150);
+}
+.warning1{
+    color : rgb(240, 161, 150);
+}
+button{
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+    background-color: rgb(156, 130, 13);
+    display: block;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
